@@ -1,0 +1,15 @@
+{
+  "name": "tsv-i18n",
+  "version": "1.0.0",
+  "description": "Convert tsv file to i18n object and backwards",
+  "main": "index.js",
+  "keywords": [
+    "i18n",
+    "tsv"
+  ],
+  "author": "Eugene Molchanov",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "3.6.0"
+  }
+}
