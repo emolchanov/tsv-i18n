@@ -52,7 +52,7 @@ Converter.prototype.obj2tsv = function (data) {
 Converter.prototype.tsv2obj = function (data, format) {
     var scope = {};
     if (!_isString(data) || data.indexOf("\t") <= 0) throw new Error("TSV data error");
-    scope.data = data.split("\n");
+    scope.data = data.match(/[^\r\n]+/g);
     _each(scope.data, function (value, key, list) {
         list[key] = value.split("\t");
     });
