@@ -1,6 +1,6 @@
 {
   "name": "tsv-i18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert tsv file to i18n object and backwards",
   "main": "index.js",
   "keywords": [
